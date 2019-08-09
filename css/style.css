@@ -1,12 +1,12 @@
 @font-face {
   font-family: Montserrat;
-  src: url("../../fonts/Montserrat-Bold.ttf");
+  src: url("../fonts/Montserrat-Bold.ttf");
   font-style: normal;
   font-weight: 700; }
 
 @font-face {
   font-family: "Roboto-Thin";
-  src: url("../../fonts/Roboto-Thin.ttf");
+  src: url("../fonts/Roboto-Thin.ttf");
   font-style: normal;
   font-weight: 400; }
 
@@ -21,7 +21,7 @@
   margin: 0 auto; }
 
 .header {
-  background: url("../../img/image.png");
+  background: url("../img/image.png");
   margin-bottom: 85px; }
 
 .header__nav-wrapper {
@@ -593,7 +593,7 @@
   height: 75px; }
 
 .signup {
-  background: url("../../img/signup.png");
+  background: url("../img/signup.png");
   margin-bottom: 72px; }
 
 .signup__caption {
