@@ -25,10 +25,7 @@
 }
 
 .header {
-  <<<<<<<HEAD
   background: url("../img/image.png");
-  =======background: url("../img/image.png");
-  >>>>>>>f52ea2a4e23c4b1675001bb367c4d2442e6abd4c
   margin-bottom: 85px;
 }
 
