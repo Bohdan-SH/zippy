@@ -1,0 +1,96 @@
+.pricing {
+  margin-bottom: 87px;
+}
+
+.pricing__caption {
+  @include section-caption;
+  margin-bottom: 48px;
+}
+
+.pricing__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pricing__container {
+  display: flex;
+  flex: calc(100% / 3) 1 1;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  &:nth-child(1)::after {
+    content: '';
+    position: absolute;
+    background-color: $background;
+    width: 2px;
+    height: 236px;
+    opacity: 0.5;
+    right: 0px;
+  }
+
+  &:nth-child(2)::after {
+    content: '';
+    position: absolute;
+    background-color: $background;
+    width: 2px;
+    height: 236px;
+    opacity: 0.5;
+    right: 0px;
+  }
+
+}
+
+.pricing__title {
+  color: $very-dark;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+
+}
+
+.pricing__cost {
+  opacity: 0.39;
+  color: $very-dark;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 21px;
+}
+
+.pricing__description-list {
+  list-style: none;
+  margin-bottom: 24px;
+}
+
+.pricing__list-item {
+  margin-bottom: 15px;
+}
+
+.pricing__description {
+  color: $very-dark;
+  font-family: Helvetica;
+  font-size: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.pricing__btn {
+  font-family: Montserrat;
+  font-size: 10px;
+  text-transform: uppercase;
+  border: none;
+  color: $dark;
+  background-color: $yellow;
+  padding: 10px 31px;
+  border-radius: 5px;
+
+  &:hover {
+    color: $white;
+    background-color: $purple;
+  }
+}

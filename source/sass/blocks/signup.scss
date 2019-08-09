@@ -1,0 +1,56 @@
+.signup {
+  background: url("../../img/signup.png");
+  margin-bottom: 72px;
+}
+
+.signup__caption {
+  display: flex;
+  justify-content: center;
+  color: $white;
+  font-family: Montserrat;
+  font-size: 44px;
+  font-weight: 700;
+  padding-top: 56px;
+  margin-bottom: 29px;
+}
+
+.signup__form {
+  display: flex;
+  width: 100%;
+  padding-bottom: 136px;
+
+}
+
+.signup__field {
+  border: none;
+  outline: none;
+  width: 80%;
+  padding-left: 15px;
+  font-family: Montserrat;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  &::placeholder {
+    color: $light-grey;
+    font-family: Montserrat;
+    font-size: 19px;
+  }
+}
+
+.signup__submit {
+  background-color: $yellow;
+  border: none;
+  width: 20%;
+  color: $dark;
+  font-family: Montserrat;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 22px 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  &:hover {
+    color: $projects-btn;
+    background-color: $purple;
+  }
+}

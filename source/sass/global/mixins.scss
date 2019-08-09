@@ -1,0 +1,8 @@
+@mixin section-caption {
+  display: flex;
+  justify-content: center;
+  color: $very-dark;
+  font-family: Montserrat;
+  font-size: 44px;
+  font-weight: 700;
+}

@@ -1,0 +1,56 @@
+.video {
+  background: $purple;
+  margin-bottom: 76px;
+  padding-bottom: 116px;
+}
+
+.video__caption {
+  display: flex;
+  justify-content: center;
+  color: $projects-btn;
+  font-family: Montserrat;
+  font-size: 44px;
+  font-weight: 700;
+  padding-top: 57px;
+  margin-bottom: 41px;
+}
+
+#slide-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  position: relative;
+}
+
+.video__img {
+  width: 690px;
+  height: 460px;
+  margin-bottom: 26px;
+}
+
+.video__player {
+  display: flex;
+  transform: translate(220%, 140%);
+  position: absolute;
+}
+
+.video__titles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.video__title {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 10px;
+  text-transform: uppercase;
+}

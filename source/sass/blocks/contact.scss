@@ -1,0 +1,68 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 78px;
+}
+
+.contact__map {
+  width: 50%;
+}
+
+.contact__block {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: $yellow;
+}
+
+.contact__caption {
+  color: $very-dark;
+  font-family: Montserrat;
+  font-size: 44px;
+  font-weight: 700;
+  padding-top: 51px;
+  padding-left: 43px;
+  margin-bottom: 34px;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 43px;
+}
+
+.contact__btn,
+.contact__area,
+.contact__input {
+  width: 50%;
+  border: none;
+  outline: none;
+}
+
+.contact__label {
+  color: $dark;
+  font-family: Montserrat;
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.contact__input {
+  margin-bottom: 21px;
+  padding: 10px 5px;
+}
+
+.contact__area {
+  margin-bottom: 15px;
+  padding: 10px 5px;
+}
+
+.contact__btn {
+  color: $card-color;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  padding: 17px 0;
+  background-color: $purple;
+  font-size: 10px;
+  margin-bottom: 52px;
+}

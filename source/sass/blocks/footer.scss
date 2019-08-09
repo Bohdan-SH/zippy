@@ -1,0 +1,45 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+
+.footer__caption {
+  color: $very-dark;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.footer__block {
+  width: (150/696) * 100%;
+}
+
+.footer__list {
+  list-style: none;
+}
+
+.footer__item {
+  margin-bottom: 10px;
+}
+
+.footer__text {
+  text-align: center;
+  color: $very-dark;
+  font-family: Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.social-block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.footer__social-img:hover {
+  fill: $purple;
+}

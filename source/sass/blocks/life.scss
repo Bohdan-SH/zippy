@@ -1,0 +1,42 @@
+.life {
+  background-color: $card-color;
+  padding-bottom: 110px;
+}
+
+.life__caption {
+  @include section-caption;
+  padding-top: 80px;
+  padding-bottom: 39px;
+}
+
+.life__big-img {
+  margin-bottom: 13px;
+  width: 694px;
+  height: 428px;
+}
+
+.life__thumbnails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.life__btn {
+  background-color: $purple;
+  border: none;
+  padding: 28px 11px;
+  outline: none;
+
+  &:hover {
+    background-color: $dark-grey;
+  }
+
+  &:active {
+    background-color: $very-dark;
+  }
+}
+
+.life__small-img {
+  width: 111px;
+  height: 75px;
+}

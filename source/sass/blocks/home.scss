@@ -1,0 +1,93 @@
+.home {
+  margin-bottom: 56px;
+}
+
+.home__caption {
+  @include section-caption;
+  margin-bottom: 74px;
+}
+
+.home__umbella-block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.home__text {
+  font-family: "Roboto-Thin";
+  color: $very-dark;
+  font-size: 29px;
+  width: (436/696) * 100%;
+  padding-top: 20px;
+  margin-bottom: 75px;
+}
+
+.home__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 58px;
+}
+
+.home__card {
+  display: flex;
+  flex-direction: column;
+  width: (156/696) * 100%;
+  justify-content: center;
+}
+
+.home__icon {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 81px;
+  height: 81px;
+  background-color: $purple;
+  border-radius: 50%;
+  margin-bottom: 33px;
+}
+
+.home__title {
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $purple;
+  margin-bottom: 27px;
+  text-align: center;
+}
+
+.home__description {
+  opacity: 0.5;
+  color: $very-dark;
+  font-family: Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 34px;
+  text-align: center;
+  line-height: 23.58px;
+}
+
+.home__btn-link {
+  align-self: center;
+}
+
+.home__btn {
+  font-family: Montserrat;
+  font-size: 10px;
+  text-transform: uppercase;
+  border: none;
+  color: $dark;
+  background-color: $yellow;
+  padding: 16px 26px;
+  border-radius: 5px;
+
+  &:hover {
+    color: $white;
+    background-color: $purple;
+  }
+}
+
+.home__line {
+  opacity: 0.5;
+}
