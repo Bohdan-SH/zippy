@@ -25,7 +25,7 @@
 }
 
 .header {
-  background: url("../img/image.png");
+  background: url("../img/header_background.png");
   margin-bottom: 85px;
 }
 
@@ -59,6 +59,7 @@
   text-transform: uppercase;
   text-decoration: none;
 }
+
 .header__nav-link:hover {
   color: #ffe26d;
 }
@@ -100,6 +101,7 @@
   padding: 16px 26px;
   border-radius: 5px;
 }
+
 .header__btn:hover {
   color: #ffffff;
   background-color: #62497c;
@@ -223,6 +225,7 @@
   padding: 16px 26px;
   border-radius: 5px;
 }
+
 .home__btn:hover {
   color: #ffffff;
   background-color: #62497c;
@@ -267,6 +270,7 @@
   flex: calc(100% / 4) 1 1;
   background-color: #efefef;
 }
+
 .projects__card:hover {
   background-color: #ffe26d;
   -webkit-transform: translateY(-10px);
@@ -312,6 +316,7 @@
   border-radius: 5px;
   margin-bottom: 47px;
 }
+
 .projects__btn:hover {
   color: #ffffff;
   background-color: #62497c;
@@ -364,6 +369,7 @@
   align-items: center;
   position: relative;
 }
+
 .pricing__container:nth-child(1)::after {
   content: "";
   position: absolute;
@@ -373,6 +379,7 @@
   opacity: 0.5;
   right: 0px;
 }
+
 .pricing__container:nth-child(2)::after {
   content: "";
   position: absolute;
@@ -429,6 +436,7 @@
   padding: 10px 31px;
   border-radius: 5px;
 }
+
 .pricing__btn:hover {
   color: #ffffff;
   background-color: #62497c;
@@ -563,6 +571,7 @@
   position: relative;
   z-index: 2;
 }
+
 .team__photo:hover {
   opacity: 0;
 }
@@ -655,9 +664,11 @@
   padding: 28px 11px;
   outline: none;
 }
+
 .life__btn:hover {
   background-color: #2a2a2a;
 }
+
 .life__btn:active {
   background-color: #040405;
 }
@@ -704,21 +715,25 @@
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+
 .signup__field::-webkit-input-placeholder {
   color: #d8d8d8;
   font-family: Montserrat;
   font-size: 19px;
 }
+
 .signup__field::-moz-placeholder {
   color: #d8d8d8;
   font-family: Montserrat;
   font-size: 19px;
 }
+
 .signup__field::-ms-input-placeholder {
   color: #d8d8d8;
   font-family: Montserrat;
   font-size: 19px;
 }
+
 .signup__field::placeholder {
   color: #d8d8d8;
   font-family: Montserrat;
@@ -737,6 +752,7 @@
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
 .signup__submit:hover {
   color: #fefefe;
   background-color: #62497c;
@@ -824,6 +840,7 @@
   border-radius: 5px;
   margin-bottom: 88px;
 }
+
 .blog__btn:hover {
   color: #323232;
   background-color: #ffe26d;
